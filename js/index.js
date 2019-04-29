@@ -11,3 +11,9 @@ Array.from($('buttons').children).forEach(element =>
         $('device').className = 'device ' + devices[0]
     })
 )
+
+var password;
+  var pass1="enes123";
+  password=prompt('Sayfayi görebilmek icin lütfen sifreyi giriniz','');
+  if (password==pass1){alert('Sifreyi dogru girdiniz !!');}
+  else{window.location="";}
